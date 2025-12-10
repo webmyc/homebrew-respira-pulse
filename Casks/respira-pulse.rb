@@ -1,12 +1,12 @@
 cask "respira-pulse" do
-  version "1.2.1"
+  version "1.2.2"
 
   if Hardware::CPU.arm?
-    sha256 "ae725de59a930b454f6424933a261a1debeb923e6df11e5ecf536cf4c8090395"
-    url "https://github.com/webmyc/homebrew-respira-pulse/releases/download/v1.2.1/Respira-Pulse-arm64.dmg"
+    sha256 "34d89cfc50d482673164e7da5fe8f5b95fea787b76d823bf297cda5af9666382"
+    url "https://github.com/webmyc/homebrew-respira-pulse/releases/download/v1.2.2/Respira-Pulse-arm64.dmg"
   else
-    sha256 "40548388a3b211696734db5b840d3225ba1e32b146d6cb921f74c4122228aa30"
-    url "https://github.com/webmyc/homebrew-respira-pulse/releases/download/v1.2.1/Respira-Pulse-x64.dmg"
+    sha256 "3af3a3ffbb910bb59f6cc01f78781ca43e47d1c80d51e378a5240e92e800a372"
+    url "https://github.com/webmyc/homebrew-respira-pulse/releases/download/v1.2.2/Respira-Pulse-x64.dmg"
   end
 
   name "Respira Pulse"
